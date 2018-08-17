@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Trip" max_length="40" name="x_262831_fmt_trip" type="collection">
+        <element label="Destination" max_length="40" name="destination" type="string"/>
+        <element label="End date" max_length="40" name="end_date" type="glide_date"/>
+        <element label="Group" max_length="32" name="group" reference="x_262831_fmt_travelgroups" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Trip ID" max_length="40" name="number" type="string"/>
+        <element label="Start Date" max_length="40" name="start_date" type="glide_date"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element label="Approved" value="approved"/>
+                <element label="Confirmed" value="confirmed"/>
+                <element label="Proposed" value="proposed"/>
+            </choice>
+        </element>
+        <element label="Vendor" max_length="32" name="vendor" reference="x_262831_fmt_vendor" type="reference"/>
+        <index name="index">
+            <element name="vendor"/>
+        </index>
+        <index name="index2">
+            <element name="group"/>
+        </index>
+    </element>
+</database>

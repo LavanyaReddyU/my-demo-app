@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <role display_value="x_262831_fmt.agency_manager" name="x_262831_fmt.agency_manager">d3050ae437b713008d687e5004990ec8</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-05 07:18:56</sys_created_on>
+        <sys_id>62154ee437b713008d687e5004990e01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>d3050ae437b713008d687e5004990ec8</sys_name>
+        <sys_package display_value="Fake My Trip" source="x_262831_fmt">936ee5a4377713008d687e5004990ea4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fake My Trip">936ee5a4377713008d687e5004990ea4</sys_scope>
+        <sys_update_name>sys_embedded_help_role_62154ee437b713008d687e5004990e01</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-05 07:18:56</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

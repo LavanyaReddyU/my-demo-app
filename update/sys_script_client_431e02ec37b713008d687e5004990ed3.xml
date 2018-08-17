@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>sys_created_on</field>
+        <global>true</global>
+        <messages/>
+        <name>Restrict fields based on status</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+	if(g_form.getValue('status').toString() === 'confirmed')
+	{
+		g_form.setReadOnly('start_date',true);
+		g_form.setReadOnly('end_date',true);
+	}
+	
+	//alert(g_user.hasRole('x_262831_fmt.agency_admin'));  
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-05 08:09:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>431e02ec37b713008d687e5004990ed3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Restrict fields based on status</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Fake My Trip" source="x_262831_fmt">936ee5a4377713008d687e5004990ea4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fake My Trip">936ee5a4377713008d687e5004990ea4</sys_scope>
+        <sys_update_name>sys_script_client_431e02ec37b713008d687e5004990ed3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-05 08:14:01</sys_updated_on>
+        <table>x_262831_fmt_trip</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

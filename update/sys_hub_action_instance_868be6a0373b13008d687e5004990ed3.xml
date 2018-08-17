@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <comment/>
+        <compiled_snapshot display_value="Create Record">2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="createrecord">718b2e60373b13008d687e5004990e7a</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-05 10:06:50</sys_created_on>
+        <sys_id>868be6a0373b13008d687e5004990ed3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Fake My Trip" source="x_262831_fmt">936ee5a4377713008d687e5004990ea4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fake My Trip">936ee5a4377713008d687e5004990ea4</sys_scope>
+        <sys_update_name>sys_hub_action_instance_868be6a0373b13008d687e5004990ed3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-05 10:06:50</sys_updated_on>
+        <ui_id>776b0524-c528-4623-bc73-7b6199b10da4</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=868be6a0373b13008d687e5004990ed3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>868be6a0373b13008d687e5004990ed3</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-05 10:06:50</sys_created_on>
+        <sys_id>028be6a0373b13008d687e5004990ed6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-05 10:06:50</sys_updated_on>
+        <value>short_description=Task created when record created</value>
+        <variable display_value="">6de09916c31332002841b63b12d3ae1b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>868be6a0373b13008d687e5004990ed3</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-05 10:06:50</sys_created_on>
+        <sys_id>c28be6a0373b13008d687e5004990ed6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-05 10:06:50</sys_updated_on>
+        <value>sc_task</value>
+        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+</record_update>
